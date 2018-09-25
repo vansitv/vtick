@@ -1,0 +1,9 @@
+C:\Users\Administrator\source\repos\DXWebApplication2\Reporting Angular Application Document Viewer
+--output-path=obj\Release\netcoreapp2.0\
+--application-name=ReportingAngularApplicationDocumentViewer
+--content-root=C:\Users\Administrator\source\repos\DXWebApplication2\Reporting Angular Application Document Viewer
+--file=C:\Users\Administrator\source\repos\DXWebApplication2\Reporting Angular Application Document Viewer\Views\Home\Index.cshtml
+--file=C:\Users\Administrator\source\repos\DXWebApplication2\Reporting Angular Application Document Viewer\Views\Shared\Error.cshtml
+--file=C:\Users\Administrator\source\repos\DXWebApplication2\Reporting Angular Application Document Viewer\Views\Shared\_Layout.cshtml
+--file=C:\Users\Administrator\source\repos\DXWebApplication2\Reporting Angular Application Document Viewer\Views\_ViewImports.cshtml
+--file=C:\Users\Administrator\source\repos\DXWebApplication2\Reporting Angular Application Document Viewer\Views\_ViewStart.cshtml

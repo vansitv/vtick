@@ -1,0 +1,11 @@
+F:\PROJECTS\DHXD\Services\Report\ServerSide\bin\Release\netcoreapp2.1\Report.deps.json
+F:\PROJECTS\DHXD\Services\Report\ServerSide\bin\Release\netcoreapp2.1\Report.runtimeconfig.json
+F:\PROJECTS\DHXD\Services\Report\ServerSide\bin\Release\netcoreapp2.1\Report.runtimeconfig.dev.json
+F:\PROJECTS\DHXD\Services\Report\ServerSide\bin\Release\netcoreapp2.1\Report.dll
+F:\PROJECTS\DHXD\Services\Report\ServerSide\bin\Release\netcoreapp2.1\Report.pdb
+F:\PROJECTS\DHXD\Services\Report\ServerSide\obj\Release\netcoreapp2.1\Report.csprojAssemblyReference.cache
+F:\PROJECTS\DHXD\Services\Report\ServerSide\obj\Release\netcoreapp2.1\Report.csproj.CoreCompileInputs.cache
+F:\PROJECTS\DHXD\Services\Report\ServerSide\obj\Release\netcoreapp2.1\Report.AssemblyInfoInputs.cache
+F:\PROJECTS\DHXD\Services\Report\ServerSide\obj\Release\netcoreapp2.1\Report.AssemblyInfo.cs
+F:\PROJECTS\DHXD\Services\Report\ServerSide\obj\Release\netcoreapp2.1\Report.dll
+F:\PROJECTS\DHXD\Services\Report\ServerSide\obj\Release\netcoreapp2.1\Report.pdb

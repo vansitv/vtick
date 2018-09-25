@@ -1,0 +1,11 @@
+C:\Users\Administrator\source\repos\DXWebApplication2\Reporting Angular Application Document Viewer\bin\Release\netcoreapp2.0\ReportingAngularApplicationDocumentViewer.deps.json
+C:\Users\Administrator\source\repos\DXWebApplication2\Reporting Angular Application Document Viewer\bin\Release\netcoreapp2.0\ReportingAngularApplicationDocumentViewer.runtimeconfig.json
+C:\Users\Administrator\source\repos\DXWebApplication2\Reporting Angular Application Document Viewer\bin\Release\netcoreapp2.0\ReportingAngularApplicationDocumentViewer.runtimeconfig.dev.json
+C:\Users\Administrator\source\repos\DXWebApplication2\Reporting Angular Application Document Viewer\bin\Release\netcoreapp2.0\ReportingAngularApplicationDocumentViewer.dll
+C:\Users\Administrator\source\repos\DXWebApplication2\Reporting Angular Application Document Viewer\bin\Release\netcoreapp2.0\ReportingAngularApplicationDocumentViewer.pdb
+C:\Users\Administrator\source\repos\DXWebApplication2\Reporting Angular Application Document Viewer\obj\Release\netcoreapp2.0\ReportingAngularApplicationDocumentViewer.csprojAssemblyReference.cache
+C:\Users\Administrator\source\repos\DXWebApplication2\Reporting Angular Application Document Viewer\obj\Release\netcoreapp2.0\ReportingAngularApplicationDocumentViewer.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\source\repos\DXWebApplication2\Reporting Angular Application Document Viewer\obj\Release\netcoreapp2.0\ReportingAngularApplicationDocumentViewer.AssemblyInfoInputs.cache
+C:\Users\Administrator\source\repos\DXWebApplication2\Reporting Angular Application Document Viewer\obj\Release\netcoreapp2.0\ReportingAngularApplicationDocumentViewer.AssemblyInfo.cs
+C:\Users\Administrator\source\repos\DXWebApplication2\Reporting Angular Application Document Viewer\obj\Release\netcoreapp2.0\ReportingAngularApplicationDocumentViewer.dll
+C:\Users\Administrator\source\repos\DXWebApplication2\Reporting Angular Application Document Viewer\obj\Release\netcoreapp2.0\ReportingAngularApplicationDocumentViewer.pdb

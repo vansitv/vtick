@@ -1,0 +1,9 @@
+F:\PROJECTS\DHXD\Services\Report\ServerSide
+--output-path=obj\Release\netcoreapp2.1\
+--application-name=Report
+--content-root=F:\PROJECTS\DHXD\Services\Report\ServerSide
+--file=F:\PROJECTS\DHXD\Services\Report\ServerSide\Views\Home\Index.cshtml
+--file=F:\PROJECTS\DHXD\Services\Report\ServerSide\Views\Shared\Error.cshtml
+--file=F:\PROJECTS\DHXD\Services\Report\ServerSide\Views\Shared\_Layout.cshtml
+--file=F:\PROJECTS\DHXD\Services\Report\ServerSide\Views\_ViewImports.cshtml
+--file=F:\PROJECTS\DHXD\Services\Report\ServerSide\Views\_ViewStart.cshtml

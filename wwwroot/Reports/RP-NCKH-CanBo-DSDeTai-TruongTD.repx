@@ -1,0 +1,177 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XtraReportsLayoutSerializer SerializerVersion="18.1.4.0" Ref="1" ControlType="DevExpress.XtraReports.UI.XtraReport, DevExpress.XtraReports.v18.1, Version=18.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" Name="DSDeTai" ScriptsSource="&#xD;&#xA;private void DSDeTai_ParametersRequestBeforeShow(object sender, DevExpress.XtraReports.Parameters.ParametersRequestEventArgs e) {&#xD;&#xA;&#xD;&#xA;&#x9;e.ParametersInformation[0].Parameter.Value = 1;&#xD;&#xA;&#x9;//e.ParametersInformation[1].Parameter.Value = DateTime.Now.Year;&#xD;&#xA;&#xD;&#xA;}&#xD;&#xA;&#xD;&#xA;" VerticalContentSplitting="Smart" Landscape="true" Margins="35, 28, 28, 41" PaperKind="A4" PageWidth="1169" PageHeight="827" Version="18.1" DataMember="RP_NCKH_CanBo_DSDeTai" DataSource="#Ref-0">
+  <Parameters>
+    <Item1 Ref="4" Description="Loại: " LookUpSettings="#Ref-2" ValueInfo="1" Name="LoaiBuoc" Type="#Ref-3" />
+    <Item2 Ref="6" Description="Năm: " LookUpSettings="#Ref-5" ValueInfo="2018" Name="Nam" Type="#Ref-3" />
+    <Item3 Ref="8" Description="Loại:" LookUpSettings="#Ref-7" ValueInfo="1" Name="Loai" Type="#Ref-3" />
+  </Parameters>
+  <Bands>
+    <Item1 Ref="9" ControlType="TopMarginBand" Name="topMarginBand1" HeightF="28" />
+    <Item2 Ref="10" ControlType="DetailBand" Name="detailBand1" HeightF="30">
+      <Controls>
+        <Item1 Ref="11" ControlType="XRTable" Name="table2" TextAlignment="MiddleLeft" SizeF="1106,30" LocationFloat="0, 0" Font="Times New Roman, 11pt" Borders="Left, Right, Bottom">
+          <Rows>
+            <Item1 Ref="12" ControlType="XRTableRow" Name="tableRow2" Weight="11.5">
+              <Cells>
+                <Item1 Ref="13" ControlType="XRTableCell" Name="tableCell4" Weight="0.05682994135908935" Multiline="true" Text="tableCell4" TextAlignment="TopCenter" Padding="2,2,2,2,100">
+                  <Summary Ref="14" Running="Group" />
+                  <ExpressionBindings>
+                    <Item1 Ref="15" Expression="sumRecordNumber()" PropertyName="Text" EventName="BeforePrint" />
+                  </ExpressionBindings>
+                  <StylePriority Ref="16" UsePadding="false" UseTextAlignment="false" />
+                </Item1>
+                <Item2 Ref="17" ControlType="XRTableCell" Name="tableCell5" Weight="0.25086236633321835" Multiline="true" Text="tableCell5" TextAlignment="TopLeft" Padding="2,2,2,2,100">
+                  <ExpressionBindings>
+                    <Item1 Ref="18" Expression="Iif(IsNullOrEmpty([Ma]), [Ten], [Ma]+': '+[Ten])" PropertyName="Text" EventName="BeforePrint" />
+                  </ExpressionBindings>
+                  <StylePriority Ref="19" UsePadding="false" UseTextAlignment="false" />
+                </Item2>
+                <Item3 Ref="20" ControlType="XRTableCell" Name="tableCell6" Weight="0.15384615384615385" Multiline="true" Text="tableCell6" TextAlignment="TopLeft" Padding="2,2,2,2,100">
+                  <ExpressionBindings>
+                    <Item1 Ref="21" Expression="[TenChuNhiem]" PropertyName="Text" EventName="BeforePrint" />
+                  </ExpressionBindings>
+                  <StylePriority Ref="22" UsePadding="false" UseTextAlignment="false" />
+                </Item3>
+                <Item4 Ref="23" ControlType="XRTableCell" Name="tableCell7" Weight="0.17712996904913333" Multiline="true" Text="tableCell7" TextAlignment="TopLeft" Padding="2,2,2,2,100">
+                  <ExpressionBindings>
+                    <Item1 Ref="24" Expression="[MucTieu]" PropertyName="Text" EventName="BeforePrint" />
+                  </ExpressionBindings>
+                  <StylePriority Ref="25" UsePadding="false" UseTextAlignment="false" />
+                </Item4>
+                <Item5 Ref="26" ControlType="XRTableCell" Name="tableCell8" Weight="0.208175346529784" Multiline="true" Text="tableCell8" TextAlignment="TopLeft" Padding="2,2,2,2,100">
+                  <ExpressionBindings>
+                    <Item1 Ref="27" Expression="[NoiDungChinh]" PropertyName="Text" EventName="BeforePrint" />
+                  </ExpressionBindings>
+                  <StylePriority Ref="28" UsePadding="false" UseTextAlignment="false" />
+                </Item5>
+                <Item6 Ref="29" ControlType="XRTableCell" Name="tableCell9" Weight="0.17324943424052475" Multiline="true" Text="tableCell9" TextAlignment="TopLeft" Padding="2,2,2,2,100">
+                  <ExpressionBindings>
+                    <Item1 Ref="30" Expression="[SanPhamDuKien]" PropertyName="Text" EventName="BeforePrint" />
+                  </ExpressionBindings>
+                  <StylePriority Ref="31" UsePadding="false" UseTextAlignment="false" />
+                </Item6>
+                <Item7 Ref="32" ControlType="XRTableCell" Name="tableCell10" Weight="0.11762670468938645" Multiline="true" Text="tableCell10" TextAlignment="TopCenter" Padding="2,2,2,2,100">
+                  <ExpressionBindings>
+                    <Item1 Ref="33" Expression="[ThoiGianThucHienDuKien]" PropertyName="Text" EventName="BeforePrint" />
+                  </ExpressionBindings>
+                  <StylePriority Ref="34" UsePadding="false" UseTextAlignment="false" />
+                </Item7>
+                <Item8 Ref="35" ControlType="XRTableCell" Name="tableCell11" Weight="0.11374598039598785" TextFormatString="{0:#.00}" Multiline="true" Text="tableCell11" TextAlignment="TopRight" Padding="2,2,2,2,100">
+                  <ExpressionBindings>
+                    <Item1 Ref="36" Expression="[KinhPhiDuKien]/1000000" PropertyName="Text" EventName="BeforePrint" />
+                  </ExpressionBindings>
+                  <StylePriority Ref="37" UsePadding="false" UseTextAlignment="false" />
+                </Item8>
+                <Item9 Ref="38" ControlType="XRTableCell" Name="tableCell12" Weight="0.13314948817210676" Multiline="true" Text="tableCell12" TextAlignment="TopLeft" Padding="2,2,2,2,100">
+                  <ExpressionBindings>
+                    <Item1 Ref="39" Expression="[GhiChu]" PropertyName="Text" EventName="BeforePrint" />
+                  </ExpressionBindings>
+                  <StylePriority Ref="40" UsePadding="false" UseTextAlignment="false" />
+                </Item9>
+              </Cells>
+            </Item1>
+          </Rows>
+          <StylePriority Ref="41" UseFont="false" UseBorders="false" UseTextAlignment="false" />
+        </Item1>
+      </Controls>
+    </Item2>
+    <Item3 Ref="42" ControlType="BottomMarginBand" Name="bottomMarginBand1" HeightF="41" />
+    <Item4 Ref="43" ControlType="GroupHeaderBand" Name="GroupHeader1" Level="1" HeightF="146.4583">
+      <GroupFields>
+        <Item1 Ref="44" FieldName="IdDonVi" />
+      </GroupFields>
+      <Controls>
+        <Item1 Ref="45" ControlType="XRLabel" Name="label5" Multiline="true" Text="DANH SÁCH ĐỀ TÀI KHOA HỌC VÀ CÔNG NGHỆ CẤP TRƯỜNG TRỌNG ĐIỂM NĂM 2018" TextAlignment="TopCenter" SizeF="1106,27.125" LocationFloat="0.0001271566, 75.04167" Font="Times New Roman, 14pt, style=Bold" ForeColor="Black" Padding="2,2,0,0,100">
+          <ExpressionBindings>
+            <Item1 Ref="46" Expression="Upper([TenDonVi])" PropertyName="Text" EventName="BeforePrint" />
+          </ExpressionBindings>
+          <StylePriority Ref="47" UseFont="false" UseForeColor="false" UseTextAlignment="false" />
+        </Item1>
+        <Item2 Ref="48" ControlType="XRLabel" Name="label4" Multiline="true" Text="BỘ GIÁO DỤC VÀ ĐÀO TẠO" TextAlignment="TopCenter" SizeF="313.3333,17.79166" LocationFloat="0, 0" Font="Times New Roman, 12pt" Padding="2,2,0,0,100">
+          <StylePriority Ref="49" UseFont="false" UseTextAlignment="false" />
+        </Item2>
+        <Item3 Ref="50" ControlType="XRLabel" Name="label1" Multiline="true" Text="DANH SÁCH ĐỀ TÀI KHOA HỌC VÀ CÔNG NGHỆ CẤP TRƯỜNG TRỌNG ĐIỂM NĂM 2018" TextAlignment="TopCenter" SizeF="1106,27.125" LocationFloat="0, 47.91667" Font="Times New Roman, 14pt, style=Bold" ForeColor="Black" Padding="2,2,0,0,100">
+          <ExpressionBindings>
+            <Item1 Ref="51" Expression="FormatString('DANH SÁCH ĐỀ TÀI KHOA HỌC VÀ CÔNG NGHỆ CẤP TRƯỜNG TRỌNG ĐIỂM LOẠI {0} NĂM {1}', [Parameters].[Loai], [Parameters].[Nam])" PropertyName="Text" EventName="BeforePrint" />
+          </ExpressionBindings>
+          <StylePriority Ref="52" UseFont="false" UseForeColor="false" UseTextAlignment="false" />
+        </Item3>
+        <Item4 Ref="53" ControlType="XRLabel" Name="label2" Multiline="true" Text="TRƯỜNG ĐẠI HỌC XÂY DỰNG&#xD;&#xA;" TextAlignment="TopCenter" SizeF="313.3333,20.91666" LocationFloat="0, 17.79165" Font="Times New Roman, 12pt, style=Bold" Padding="2,2,0,0,100">
+          <StylePriority Ref="54" UseFont="false" UseTextAlignment="false" />
+        </Item4>
+        <Item5 Ref="55" ControlType="XRLabel" Name="label6" Multiline="true" Text="(Theo Quyết định số: 1486/QĐ-ĐHXD ngày 21 tháng 12 năm 2017 của Hiệu trưởng Trường Đại học Xây dựng)" TextAlignment="TopCenter" SizeF="1106,20.00001" LocationFloat="0, 122.7083" Font="Times New Roman, 11pt, style=Italic" ForeColor="Black" Padding="2,2,0,0,100">
+          <Scripts Ref="56" OnAfterPrint="label6_AfterPrint" />
+          <StylePriority Ref="57" UseFont="false" UseForeColor="false" UseTextAlignment="false" />
+        </Item5>
+      </Controls>
+    </Item4>
+    <Item5 Ref="58" ControlType="GroupFooterBand" Name="GroupFooter1" Level="1" PageBreak="AfterBand" HeightF="34.04167">
+      <Controls>
+        <Item1 Ref="59" ControlType="XRLabel" Name="label3" TextFormatString="(Danh sách gồm {0} đề tài)" Multiline="true" Text="(Danh sách gồm {0} đề tài)" TextAlignment="TopCenter" SizeF="1106,24.04166" LocationFloat="0.0001271566, 10.00001" Font="Times New Roman, 11pt, style=Italic" Padding="2,2,0,0,100">
+          <Summary Ref="60" Running="Group" />
+          <ExpressionBindings>
+            <Item1 Ref="61" Expression="sumRecordNumber()" PropertyName="Text" EventName="BeforePrint" />
+          </ExpressionBindings>
+          <StylePriority Ref="62" UseFont="false" UseTextAlignment="false" />
+        </Item1>
+      </Controls>
+    </Item5>
+    <Item6 Ref="63" ControlType="GroupHeaderBand" Name="GroupHeader2" RepeatEveryPage="true" HeightF="49.9999924">
+      <Controls>
+        <Item1 Ref="64" ControlType="XRTable" Name="table1" TextAlignment="MiddleLeft" SizeF="1106,49.9999924" LocationFloat="0.0002861023, 0" Font="Times New Roman, 11pt, style=Bold, Italic" Borders="All">
+          <Rows>
+            <Item1 Ref="65" ControlType="XRTableRow" Name="tableRow1" Weight="11.5">
+              <Cells>
+                <Item1 Ref="66" ControlType="XRTableCell" Name="tableCell1" Weight="0.05682994135908935" Multiline="true" Text="STT" TextAlignment="MiddleCenter" Padding="2,2,0,0,96">
+                  <StylePriority Ref="67" UseTextAlignment="false" />
+                </Item1>
+                <Item2 Ref="68" ControlType="XRTableCell" Name="tableCell2" Weight="0.25086236633321835" Multiline="true" Text="Mã số, tên đề tài" TextAlignment="MiddleCenter" Padding="2,2,0,0,96">
+                  <StylePriority Ref="69" UseTextAlignment="false" />
+                </Item2>
+                <Item3 Ref="70" ControlType="XRTableCell" Name="tableCell3" Weight="0.15384615384615385" Multiline="true" Text="Cá nhân&#xD;&#xA;chủ trì" TextAlignment="MiddleCenter" Padding="2,2,0,0,96">
+                  <StylePriority Ref="71" UseTextAlignment="false" />
+                </Item3>
+                <Item4 Ref="72" ControlType="XRTableCell" Name="tableCell13" Weight="0.17712996904913333" Multiline="true" Text="Mục tiêu" TextAlignment="MiddleCenter" Padding="2,2,0,0,96">
+                  <StylePriority Ref="73" UseTextAlignment="false" />
+                </Item4>
+                <Item5 Ref="74" ControlType="XRTableCell" Name="tableCell14" Weight="0.208175346529784" Multiline="true" Text="Nội dung chính" TextAlignment="MiddleCenter" Padding="2,2,0,0,96">
+                  <StylePriority Ref="75" UseTextAlignment="false" />
+                </Item5>
+                <Item6 Ref="76" ControlType="XRTableCell" Name="tableCell15" Weight="0.17324943424052475" Multiline="true" Text="Kết quả, sản phẩm" TextAlignment="MiddleCenter" Padding="2,2,0,0,96">
+                  <StylePriority Ref="77" UseTextAlignment="false" />
+                </Item6>
+                <Item7 Ref="78" ControlType="XRTableCell" Name="tableCell16" Weight="0.11762670468938645" Multiline="true" Text="Thời gian thực hiện" TextAlignment="MiddleCenter" Padding="2,2,0,0,96">
+                  <StylePriority Ref="79" UseTextAlignment="false" />
+                </Item7>
+                <Item8 Ref="80" ControlType="XRTableCell" Name="tableCell17" Weight="0.11374598039598785" Multiline="true" Text="Kinh phí (triệu đồng)" TextAlignment="MiddleCenter" Padding="2,2,0,0,96">
+                  <StylePriority Ref="81" UseTextAlignment="false" />
+                </Item8>
+                <Item9 Ref="82" ControlType="XRTableCell" Name="tableCell18" Weight="0.13314948817210676" Multiline="true" Text="Ghi chú" TextAlignment="MiddleCenter" Padding="2,2,0,0,96">
+                  <StylePriority Ref="83" UseTextAlignment="false" />
+                </Item9>
+              </Cells>
+            </Item1>
+          </Rows>
+          <StylePriority Ref="84" UseFont="false" UseBorders="false" UseTextAlignment="false" />
+        </Item1>
+      </Controls>
+    </Item6>
+  </Bands>
+  <Scripts Ref="85" OnParametersRequestBeforeShow="DSDeTai_ParametersRequestBeforeShow" />
+  <ComponentStorage>
+    <Item1 Ref="0" ObjectType="DevExpress.DataAccess.Sql.SqlDataSource,DevExpress.DataAccess.v18.1" Name="sqlDataSource1" Base64="PFNxbERhdGFTb3VyY2U+PE5hbWU+c3FsRGF0YVNvdXJjZTE8L05hbWU+PENvbm5lY3Rpb24gTmFtZT0iUmVwb3J0Q29ubmVjdGlvblN0cmluZyIgRnJvbUFwcENvbmZpZz0idHJ1ZSIgLz48UXVlcnkgVHlwZT0iU3RvcmVkUHJvY1F1ZXJ5IiBOYW1lPSJSUF9OQ0tIX0NhbkJvX0RTRGVUYWkiPjxQYXJhbWV0ZXIgTmFtZT0iQENhcERlVGFpIiBUeXBlPSJEZXZFeHByZXNzLkRhdGFBY2Nlc3MuRXhwcmVzc2lvbiI+KFN5c3RlbS5JbnQzMiwgbXNjb3JsaWIsIFZlcnNpb249NC4wLjAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5MzRlMDg5KSgyKTwvUGFyYW1ldGVyPjxQYXJhbWV0ZXIgTmFtZT0iQExvYWkiIFR5cGU9IkRldkV4cHJlc3MuRGF0YUFjY2Vzcy5FeHByZXNzaW9uIj4oU3lzdGVtLkludDMyLCBtc2NvcmxpYiwgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkpKFtQYXJhbWV0ZXJzLkxvYWldKTwvUGFyYW1ldGVyPjxQYXJhbWV0ZXIgTmFtZT0iQExvYWlCdW9jIiBUeXBlPSJEZXZFeHByZXNzLkRhdGFBY2Nlc3MuRXhwcmVzc2lvbiI+KFN5c3RlbS5JbnQzMiwgbXNjb3JsaWIsIFZlcnNpb249NC4wLjAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5MzRlMDg5KShbUGFyYW1ldGVycy5Mb2FpQnVvY10pPC9QYXJhbWV0ZXI+PFBhcmFtZXRlciBOYW1lPSJATmFtIiBUeXBlPSJEZXZFeHByZXNzLkRhdGFBY2Nlc3MuRXhwcmVzc2lvbiI+KFN5c3RlbS5JbnQzMiwgbXNjb3JsaWIsIFZlcnNpb249NC4wLjAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5MzRlMDg5KShbUGFyYW1ldGVycy5OYW1dKTwvUGFyYW1ldGVyPjxQcm9jTmFtZT5SUF9OQ0tIX0NhbkJvX0RTRGVUYWk8L1Byb2NOYW1lPjwvUXVlcnk+PFF1ZXJ5IFR5cGU9IlNlbGVjdFF1ZXJ5IiBOYW1lPSJEbUNhcERlVGFpIj48VGFibGVzPjxUYWJsZSBOYW1lPSJEbUNhcERlVGFpIiBYPSIzMCIgWT0iMzAiIFdpZHRoPSIxMjUiIEhlaWdodD0iMTkxIiAvPjwvVGFibGVzPjxDb2x1bW5zPjxDb2x1bW4gVGFibGU9IkRtQ2FwRGVUYWkiIE5hbWU9IklkIiAvPjxDb2x1bW4gVGFibGU9IkRtQ2FwRGVUYWkiIE5hbWU9IlRlbiIgLz48L0NvbHVtbnM+PC9RdWVyeT48UXVlcnkgVHlwZT0iU2VsZWN0UXVlcnkiIE5hbWU9IkRtTG9haURlVGFpIj48VGFibGVzPjxUYWJsZSBOYW1lPSJEbUxvYWlEZVRhaSIgWD0iMzAiIFk9IjMwIiBXaWR0aD0iMTI1IiBIZWlnaHQ9Ijk2IiAvPjwvVGFibGVzPjxDb2x1bW5zPjxDb2x1bW4gVGFibGU9IkRtTG9haURlVGFpIiBOYW1lPSJJZCIgLz48Q29sdW1uIFRhYmxlPSJEbUxvYWlEZVRhaSIgTmFtZT0iVGVuIiAvPjwvQ29sdW1ucz48L1F1ZXJ5PjxRdWVyeSBUeXBlPSJTdG9yZWRQcm9jUXVlcnkiIE5hbWU9IkZ1bnRpb25fR2VuWWVhck5DS0giPjxQcm9jTmFtZT5GdW50aW9uX0dlblllYXJOQ0tIPC9Qcm9jTmFtZT48L1F1ZXJ5PjxSZXN1bHRTY2hlbWE+PERhdGFTZXQgTmFtZT0ic3FsRGF0YVNvdXJjZTEiPjxWaWV3IE5hbWU9IlJQX05DS0hfQ2FuQm9fRFNEZVRhaSI+PEZpZWxkIE5hbWU9IlNhblBoYW1EdUtpZW4iIFR5cGU9IlN0cmluZyIgLz48RmllbGQgTmFtZT0iVGVuQ2h1TmhpZW0iIFR5cGU9IlN0cmluZyIgLz48RmllbGQgTmFtZT0iVGhhbmhWaWVuIiBUeXBlPSJTdHJpbmciIC8+PEZpZWxkIE5hbWU9IklkIiBUeXBlPSJJbnQzMiIgLz48RmllbGQgTmFtZT0iTWEiIFR5cGU9IlN0cmluZyIgLz48RmllbGQgTmFtZT0iVGVuIiBUeXBlPSJTdHJpbmciIC8+PEZpZWxkIE5hbWU9IlRlbkVuIiBUeXBlPSJTdHJpbmciIC8+PEZpZWxkIE5hbWU9IklkRG90RGFuZ0t5IiBUeXBlPSJJbnQzMiIgLz48RmllbGQgTmFtZT0iSWRDYXBEZVRhaSIgVHlwZT0iSW50MzIiIC8+PEZpZWxkIE5hbWU9IklkTG9haURlVGFpIiBUeXBlPSJJbnQzMiIgLz48RmllbGQgTmFtZT0iSWRDaHVOaGllbSIgVHlwZT0iSW50MzIiIC8+PEZpZWxkIE5hbWU9IklkTGluaFZ1Y0RlVGFpIiBUeXBlPSJJbnQzMiIgLz48RmllbGQgTmFtZT0iSWRLaG9hUGhvbmciIFR5cGU9IkludDMyIiAvPjxGaWVsZCBOYW1lPSJJZERvblZpIiBUeXBlPSJJbnQzMiIgLz48RmllbGQgTmFtZT0iVHVOZ2F5IiBUeXBlPSJEYXRlVGltZSIgLz48RmllbGQgTmFtZT0iRGVuTmdheSIgVHlwZT0iRGF0ZVRpbWUiIC8+PEZpZWxkIE5hbWU9IlRob2lHaWFuVGh1Y0hpZW5EdUtpZW4iIFR5cGU9IkludDMyIiAvPjxGaWVsZCBOYW1lPSJOYW1Ib2MiIFR5cGU9IkludDE2IiAvPjxGaWVsZCBOYW1lPSJIdW9uZ0RhblNpbmhWaWVuIiBUeXBlPSJTdHJpbmciIC8+PEZpZWxkIE5hbWU9IktpbmhQaGlEdUtpZW4iIFR5cGU9IkRvdWJsZSIgLz48RmllbGQgTmFtZT0iSGFuQ2FwTmhhdFRodXlldE1pbmgiIFR5cGU9IkRhdGVUaW1lIiAvPjxGaWVsZCBOYW1lPSJEaW5oS2VtIiBUeXBlPSJTdHJpbmciIC8+PEZpZWxkIE5hbWU9Ik11Y1RpZXUiIFR5cGU9IlN0cmluZyIgLz48RmllbGQgTmFtZT0iVGluaENhcFRoaWV0IiBUeXBlPSJTdHJpbmciIC8+PEZpZWxkIE5hbWU9IlBodW9uZ1BoYXAiIFR5cGU9IlN0cmluZyIgLz48RmllbGQgTmFtZT0iSGlldVF1YUtpbmhUZSIgVHlwZT0iU3RyaW5nIiAvPjxGaWVsZCBOYW1lPSJEaWFDaGlVbmdEdW5nIiBUeXBlPSJTdHJpbmciIC8+PEZpZWxkIE5hbWU9IlRodXlldE1pbmhEaW5oS2VtIiBUeXBlPSJTdHJpbmciIC8+PEZpZWxkIE5hbWU9IlRodXlldE1pbmhEaWFDaGlVbmdEdW5nIiBUeXBlPSJTdHJpbmciIC8+PEZpZWxkIE5hbWU9Ik5vaUR1bmdDaGluaCIgVHlwZT0iU3RyaW5nIiAvPjxGaWVsZCBOYW1lPSJHaGlDaHUiIFR5cGU9IlN0cmluZyIgLz48RmllbGQgTmFtZT0iVGh1Y0hpZW5Ob2lEdW5nIiBUeXBlPSJTdHJpbmciIC8+PEZpZWxkIE5hbWU9IlRodWNIaWVuS2V0UXVhIiBUeXBlPSJTdHJpbmciIC8+PEZpZWxkIE5hbWU9IlRodWNIaWVuS2luaFBoaSIgVHlwZT0iRG91YmxlIiAvPjxGaWVsZCBOYW1lPSJUaHVjSGllbk5vaUR1bmdLaWVuTmdoaSIgVHlwZT0iU3RyaW5nIiAvPjxGaWVsZCBOYW1lPSJUaHVjSGllbkRlTmdoaUNoaW5oU3VhIiBUeXBlPSJTdHJpbmciIC8+PEZpZWxkIE5hbWU9IkRlWHVhdE5naGllbVRodSIgVHlwZT0iQm9vbGVhbiIgLz48RmllbGQgTmFtZT0iRHV5ZXREZVh1YXROZ2hpZW1UaHUiIFR5cGU9IkJvb2xlYW4iIC8+PEZpZWxkIE5hbWU9IlRyYW5nVGhhaSIgVHlwZT0iSW50MTYiIC8+PEZpZWxkIE5hbWU9Ik5ndW9pVGFvIiBUeXBlPSJJbnQzMiIgLz48RmllbGQgTmFtZT0iTmdheVRhbyIgVHlwZT0iRGF0ZVRpbWUiIC8+PEZpZWxkIE5hbWU9Ik5ndW9pQ2FwTmhhdCIgVHlwZT0iSW50MzIiIC8+PEZpZWxkIE5hbWU9Ik5nYXlDYXBOaGF0IiBUeXBlPSJEYXRlVGltZSIgLz48RmllbGQgTmFtZT0iVGVuRG9uVmkiIFR5cGU9IlN0cmluZyIgLz48L1ZpZXc+PFZpZXcgTmFtZT0iRG1DYXBEZVRhaSI+PEZpZWxkIE5hbWU9IklkIiBUeXBlPSJJbnQzMiIgLz48RmllbGQgTmFtZT0iVGVuIiBUeXBlPSJTdHJpbmciIC8+PC9WaWV3PjxWaWV3IE5hbWU9IkRtTG9haURlVGFpIj48RmllbGQgTmFtZT0iSWQiIFR5cGU9IkludDMyIiAvPjxGaWVsZCBOYW1lPSJUZW4iIFR5cGU9IlN0cmluZyIgLz48L1ZpZXc+PFZpZXcgTmFtZT0iRnVudGlvbl9HZW5ZZWFyTkNLSCI+PEZpZWxkIE5hbWU9InllYXIiIFR5cGU9IkludDMyIiAvPjwvVmlldz48L0RhdGFTZXQ+PC9SZXN1bHRTY2hlbWE+PENvbm5lY3Rpb25PcHRpb25zIENsb3NlQ29ubmVjdGlvbj0idHJ1ZSIgLz48L1NxbERhdGFTb3VyY2U+" />
+  </ComponentStorage>
+  <ObjectStorage>
+    <Item1 Ref="2" ObjectType="DevExpress.XtraReports.Parameters.StaticListLookUpSettings, DevExpress.Printing.v18.1.Core">
+      <LookUpValues>
+        <Item1 Ref="87" Value="#Ref-86" Description="Đăng ký" />
+        <Item2 Ref="89" Value="#Ref-88" Description="Nghiệm thu" />
+      </LookUpValues>
+    </Item1>
+    <Item2 ObjectType="DevExpress.XtraReports.Serialization.ObjectStorageInfo, DevExpress.XtraReports.v18.1" Ref="3" Content="System.Int32" Type="System.Type" />
+    <Item3 Ref="5" ObjectType="DevExpress.XtraReports.Parameters.DynamicListLookUpSettings, DevExpress.Printing.v18.1.Core" DataSource="#Ref-0" DataMember="Funtion_GenYearNCKH" ValueMember="year" DisplayMember="year" />
+    <Item4 Ref="7" ObjectType="DevExpress.XtraReports.Parameters.DynamicListLookUpSettings, DevExpress.Printing.v18.1.Core" DataSource="#Ref-0" DataMember="DmLoaiDeTai" ValueMember="Id" DisplayMember="Ten" />
+    <Item5 ObjectType="DevExpress.XtraReports.Serialization.ObjectStorageInfo, DevExpress.XtraReports.v18.1" Ref="86" Content="1" Type="System.Int32" />
+    <Item6 ObjectType="DevExpress.XtraReports.Serialization.ObjectStorageInfo, DevExpress.XtraReports.v18.1" Ref="88" Content="2" Type="System.Int32" />
+  </ObjectStorage>
+</XtraReportsLayoutSerializer>

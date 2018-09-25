@@ -1,0 +1,11 @@
+c:\users\administrator\source\repos\DXWebApplication2\Reporting Angular Application Document Viewer\bin\Debug\netcoreapp2.0\Reporting Angular Application Document Viewer.deps.json
+c:\users\administrator\source\repos\DXWebApplication2\Reporting Angular Application Document Viewer\bin\Debug\netcoreapp2.0\Reporting Angular Application Document Viewer.runtimeconfig.json
+c:\users\administrator\source\repos\DXWebApplication2\Reporting Angular Application Document Viewer\bin\Debug\netcoreapp2.0\Reporting Angular Application Document Viewer.runtimeconfig.dev.json
+c:\users\administrator\source\repos\DXWebApplication2\Reporting Angular Application Document Viewer\bin\Debug\netcoreapp2.0\Reporting Angular Application Document Viewer.dll
+c:\users\administrator\source\repos\DXWebApplication2\Reporting Angular Application Document Viewer\bin\Debug\netcoreapp2.0\Reporting Angular Application Document Viewer.pdb
+c:\users\administrator\source\repos\DXWebApplication2\Reporting Angular Application Document Viewer\obj\Debug\netcoreapp2.0\Reporting Angular Application Document Viewer.csprojAssemblyReference.cache
+c:\users\administrator\source\repos\DXWebApplication2\Reporting Angular Application Document Viewer\obj\Debug\netcoreapp2.0\Reporting Angular Application Document Viewer.csproj.CoreCompileInputs.cache
+c:\users\administrator\source\repos\DXWebApplication2\Reporting Angular Application Document Viewer\obj\Debug\netcoreapp2.0\Reporting Angular Application Document Viewer.AssemblyInfoInputs.cache
+c:\users\administrator\source\repos\DXWebApplication2\Reporting Angular Application Document Viewer\obj\Debug\netcoreapp2.0\Reporting Angular Application Document Viewer.AssemblyInfo.cs
+c:\users\administrator\source\repos\DXWebApplication2\Reporting Angular Application Document Viewer\obj\Debug\netcoreapp2.0\Reporting Angular Application Document Viewer.dll
+c:\users\administrator\source\repos\DXWebApplication2\Reporting Angular Application Document Viewer\obj\Debug\netcoreapp2.0\Reporting Angular Application Document Viewer.pdb

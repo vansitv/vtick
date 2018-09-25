@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XtraReportsLayoutSerializer SerializerVersion="18.1.4.0" Ref="1" ControlType="DevExpress.XtraReports.UI.XtraReport, DevExpress.XtraReports.v18.1, Version=18.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" Name="XtraReport" PageWidth="850" PageHeight="1100" Version="18.1" DataMember="DmHocHam" DataSource="#Ref-0">
+  <Bands>
+    <Item1 Ref="2" ControlType="TopMarginBand" Name="topMarginBand1" />
+    <Item2 Ref="3" ControlType="BottomMarginBand" Name="bottomMarginBand1">
+      <Controls>
+        <Item1 Ref="4" ControlType="XRPageInfo" Name="pageInfo1" PageInfo="DateTime" SizeF="313,23" LocationFloat="6, 6" StyleName="PageInfo" Padding="2,2,0,0,96" />
+        <Item2 Ref="5" ControlType="XRPageInfo" Name="pageInfo2" TextFormatString="Page {0} of {1}" TextAlignment="TopRight" SizeF="313,23" LocationFloat="331, 6" StyleName="PageInfo" Padding="2,2,0,0,96" />
+      </Controls>
+    </Item2>
+    <Item3 Ref="6" ControlType="ReportHeaderBand" Name="reportHeaderBand1" HeightF="60">
+      <Controls>
+        <Item1 Ref="7" ControlType="XRLabel" Name="label1" Multiline="true" Text="Report Title" SizeF="638,25.5533829" LocationFloat="6, 6" StyleName="Title" Padding="2,2,0,0,96" />
+      </Controls>
+    </Item3>
+    <Item4 Ref="8" ControlType="GroupHeaderBand" Name="groupHeaderBand1" GroupUnion="WithFirstDetail" HeightF="48">
+      <Controls>
+        <Item1 Ref="9" ControlType="XRPanel" Name="panel1" SizeF="650,48" LocationFloat="0, 0" StyleName="DetailCaptionBackground3">
+          <Controls>
+            <Item1 Ref="10" ControlType="XRTable" Name="table1" SizeF="650,28" LocationFloat="0, 20">
+              <Rows>
+                <Item1 Ref="11" ControlType="XRTableRow" Name="tableRow1" Weight="1">
+                  <Cells>
+                    <Item1 Ref="12" ControlType="XRTableCell" Name="tableCell1" Weight="0.091088315523587746" Multiline="true" Text="Id" TextAlignment="MiddleRight" StyleName="DetailCaption3" Padding="2,2,0,0,100">
+                      <StylePriority Ref="13" UseTextAlignment="false" />
+                    </Item1>
+                    <Item2 Ref="14" ControlType="XRTableCell" Name="tableCell2" Weight="0.1068280264047476" Multiline="true" Text="Ma" StyleName="DetailCaption3" Padding="2,2,0,0,100" />
+                    <Item3 Ref="15" ControlType="XRTableCell" Name="tableCell3" Weight="0.12155359121469352" Multiline="true" Text="Ten" StyleName="DetailCaption3" Padding="2,2,0,0,100" />
+                    <Item4 Ref="16" ControlType="XRTableCell" Name="tableCell4" Weight="0.25179159311147836" Multiline="true" Text="So Thu Tu" TextAlignment="MiddleRight" StyleName="DetailCaption3" Padding="2,2,0,0,100">
+                      <StylePriority Ref="17" UseTextAlignment="false" />
+                    </Item4>
+                    <Item5 Ref="18" ControlType="XRTableCell" Name="tableCell5" Weight="0.20802060640775241" Multiline="true" Text="Ghi Chu" StyleName="DetailCaption3" Padding="2,2,0,0,100" />
+                    <Item6 Ref="19" ControlType="XRTableCell" Name="tableCell6" Weight="0.2207178203876202" Multiline="true" Text="Su Dung" TextAlignment="MiddleCenter" StyleName="DetailCaption3" Padding="2,2,0,0,100">
+                      <StylePriority Ref="20" UseTextAlignment="false" />
+                    </Item6>
+                  </Cells>
+                </Item1>
+              </Rows>
+            </Item1>
+          </Controls>
+        </Item1>
+      </Controls>
+    </Item4>
+    <Item5 Ref="21" ControlType="DetailBand" Name="detailBand1" HeightF="25">
+      <Controls>
+        <Item1 Ref="22" ControlType="XRTable" Name="table2" SizeF="650,25" LocationFloat="0, 0" OddStyleName="DetailData3_Odd">
+          <Rows>
+            <Item1 Ref="23" ControlType="XRTableRow" Name="tableRow2" Weight="11.5">
+              <Cells>
+                <Item1 Ref="24" ControlType="XRTableCell" Name="tableCell7" Weight="0.091088321392352761" Multiline="true" Text="tableCell7" TextAlignment="MiddleRight" StyleName="DetailData3" Padding="2,2,0,0,100">
+                  <ExpressionBindings>
+                    <Item1 Ref="25" Expression="[Id]" PropertyName="Text" EventName="BeforePrint" />
+                  </ExpressionBindings>
+                  <StylePriority Ref="26" UseTextAlignment="false" />
+                </Item1>
+                <Item2 Ref="27" ControlType="XRTableCell" Name="tableCell8" Weight="0.1068280264047476" Multiline="true" Text="tableCell8" StyleName="DetailData3" Padding="2,2,0,0,100">
+                  <ExpressionBindings>
+                    <Item1 Ref="28" Expression="[Ma]" PropertyName="Text" EventName="BeforePrint" />
+                  </ExpressionBindings>
+                </Item2>
+                <Item3 Ref="29" ControlType="XRTableCell" Name="tableCell9" Weight="0.12155359121469352" Multiline="true" Text="tableCell9" StyleName="DetailData3" Padding="2,2,0,0,100">
+                  <ExpressionBindings>
+                    <Item1 Ref="30" Expression="[Ten]" PropertyName="Text" EventName="BeforePrint" />
+                  </ExpressionBindings>
+                </Item3>
+                <Item4 Ref="31" ControlType="XRTableCell" Name="tableCell10" Weight="0.25179161658653848" Multiline="true" Text="tableCell10" TextAlignment="MiddleRight" StyleName="DetailData3" Padding="2,2,0,0,100">
+                  <ExpressionBindings>
+                    <Item1 Ref="32" Expression="[SoThuTu]" PropertyName="Text" EventName="BeforePrint" />
+                  </ExpressionBindings>
+                  <StylePriority Ref="33" UseTextAlignment="false" />
+                </Item4>
+                <Item5 Ref="34" ControlType="XRTableCell" Name="tableCell11" Weight="0.20802060640775241" Multiline="true" Text="tableCell11" StyleName="DetailData3" Padding="2,2,0,0,100">
+                  <ExpressionBindings>
+                    <Item1 Ref="35" Expression="[GhiChu]" PropertyName="Text" EventName="BeforePrint" />
+                  </ExpressionBindings>
+                </Item5>
+                <Item6 Ref="36" ControlType="XRTableCell" Name="tableCell12" Weight="0.22071786733774038" Multiline="true" Text="tableCell12" TextAlignment="MiddleCenter" StyleName="DetailData3" Padding="2,2,0,0,100">
+                  <Controls>
+                    <Item1 Ref="37" ControlType="XRCheckBox" Name="checkBox1" GlyphAlignment="Center" AnchorVertical="Both" AnchorHorizontal="Both" SizeF="143.466614,25" LocationFloat="0, 0" Padding="2,2,0,0,100">
+                      <ExpressionBindings>
+                        <Item1 Ref="38" Expression="[SuDung]" PropertyName="CheckState" EventName="BeforePrint" />
+                      </ExpressionBindings>
+                    </Item1>
+                  </Controls>
+                  <StylePriority Ref="39" UseTextAlignment="false" />
+                </Item6>
+              </Cells>
+            </Item1>
+          </Rows>
+        </Item1>
+      </Controls>
+    </Item5>
+  </Bands>
+  <StyleSheet>
+    <Item1 Ref="40" Name="Title" BorderStyle="Inset" Font="Tahoma, 14pt" ForeColor="255,75,75,75" BackColor="Transparent" BorderColor="Black" Sides="None" StringFormat="Near;Near;0;None;Character;Default" BorderWidthSerializable="1" />
+    <Item2 Ref="41" Name="DetailCaption3" BorderStyle="Inset" Padding="6,6,0,0,100" Font="Tahoma, 8pt, style=Bold" ForeColor="255,75,75,75" BackColor="Transparent" BorderColor="Transparent" Sides="None" StringFormat="Near;Center;0;None;Character;Default" TextAlignment="MiddleLeft" />
+    <Item3 Ref="42" Name="DetailData3" BorderStyle="Inset" Padding="6,6,0,0,100" Font="Tahoma, 8pt" ForeColor="Black" StringFormat="Near;Center;0;None;Character;Default" TextAlignment="MiddleLeft" />
+    <Item4 Ref="43" Name="DetailData3_Odd" BorderStyle="Inset" Padding="6,6,0,0,100" Font="Tahoma, 8pt" ForeColor="Black" BackColor="255,231,231,231" BorderColor="Transparent" Sides="None" StringFormat="Near;Center;0;None;Character;Default" TextAlignment="MiddleLeft" BorderWidthSerializable="1" />
+    <Item5 Ref="44" Name="DetailCaptionBackground3" BorderStyle="Inset" BackColor="Transparent" BorderColor="255,206,206,206" Sides="Top" StringFormat="Near;Near;0;None;Character;Default" BorderWidthSerializable="2" />
+    <Item6 Ref="45" Name="PageInfo" BorderStyle="Inset" Padding="2,2,0,0,100" Font="Tahoma, 8pt, style=Bold" ForeColor="255,75,75,75" StringFormat="Near;Near;0;None;Character;Default" />
+  </StyleSheet>
+  <ComponentStorage>
+    <Item1 Ref="0" ObjectType="DevExpress.DataAccess.Sql.SqlDataSource,DevExpress.DataAccess.v18.1" Name="sqlDataSource1" Base64="PFNxbERhdGFTb3VyY2U+PE5hbWU+c3FsRGF0YVNvdXJjZTE8L05hbWU+PENvbm5lY3Rpb24gTmFtZT0ibG9jYWxob3N0X2VVbml2ZXJzaXR5X05fQ29ubmVjdGlvbiIgUHJvdmlkZXJLZXk9Ik1TU3FsU2VydmVyIj48UGFyYW1ldGVycz48UGFyYW1ldGVyIE5hbWU9InNlcnZlciIgVmFsdWU9IjEwLjAuNjguMzEiIC8+PFBhcmFtZXRlciBOYW1lPSJkYXRhYmFzZSIgVmFsdWU9ImVVbml2ZXJzaXR5X04iIC8+PFBhcmFtZXRlciBOYW1lPSJ1c2VJbnRlZ3JhdGVkU2VjdXJpdHkiIFZhbHVlPSJGYWxzZSIgLz48UGFyYW1ldGVyIE5hbWU9InJlYWQgb25seSIgVmFsdWU9IjEiIC8+PFBhcmFtZXRlciBOYW1lPSJnZW5lcmF0ZUNvbm5lY3Rpb25IZWxwZXIiIFZhbHVlPSJmYWxzZSIgLz48UGFyYW1ldGVyIE5hbWU9InVzZXJpZCIgVmFsdWU9InNhIiAvPjxQYXJhbWV0ZXIgTmFtZT0icGFzc3dvcmQiIFZhbHVlPSJ0cmluYW1AMTIzIiAvPjwvUGFyYW1ldGVycz48L0Nvbm5lY3Rpb24+PFF1ZXJ5IFR5cGU9IlNlbGVjdFF1ZXJ5IiBOYW1lPSJEbUhvY0hhbSI+PFRhYmxlcz48VGFibGUgTmFtZT0iRG1Ib2NIYW0iIC8+PC9UYWJsZXM+PENvbHVtbnM+PENvbHVtbiBUYWJsZT0iRG1Ib2NIYW0iIE5hbWU9IklkIiAvPjxDb2x1bW4gVGFibGU9IkRtSG9jSGFtIiBOYW1lPSJNYSIgLz48Q29sdW1uIFRhYmxlPSJEbUhvY0hhbSIgTmFtZT0iVGVuIiAvPjxDb2x1bW4gVGFibGU9IkRtSG9jSGFtIiBOYW1lPSJTb1RodVR1IiAvPjxDb2x1bW4gVGFibGU9IkRtSG9jSGFtIiBOYW1lPSJHaGlDaHUiIC8+PENvbHVtbiBUYWJsZT0iRG1Ib2NIYW0iIE5hbWU9IlN1RHVuZyIgLz48L0NvbHVtbnM+PC9RdWVyeT48UmVzdWx0U2NoZW1hPjxEYXRhU2V0IE5hbWU9InNxbERhdGFTb3VyY2UxIj48VmlldyBOYW1lPSJEbUhvY0hhbSI+PEZpZWxkIE5hbWU9IklkIiBUeXBlPSJJbnQzMiIgLz48RmllbGQgTmFtZT0iTWEiIFR5cGU9IlN0cmluZyIgLz48RmllbGQgTmFtZT0iVGVuIiBUeXBlPSJTdHJpbmciIC8+PEZpZWxkIE5hbWU9IlNvVGh1VHUiIFR5cGU9IkludDE2IiAvPjxGaWVsZCBOYW1lPSJHaGlDaHUiIFR5cGU9IlN0cmluZyIgLz48RmllbGQgTmFtZT0iU3VEdW5nIiBUeXBlPSJCb29sZWFuIiAvPjwvVmlldz48L0RhdGFTZXQ+PC9SZXN1bHRTY2hlbWE+PENvbm5lY3Rpb25PcHRpb25zIENsb3NlQ29ubmVjdGlvbj0idHJ1ZSIgLz48L1NxbERhdGFTb3VyY2U+" />
+  </ComponentStorage>
+</XtraReportsLayoutSerializer>

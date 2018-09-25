@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk.Web">
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+    <TypeScriptCompileBlocked>true</TypeScriptCompileBlocked>
+    <TypeScriptToolsVersion>Latest</TypeScriptToolsVersion>
+    <IsPackable>false</IsPackable>
+    <AssemblyName>Report</AssemblyName>
+    <RootNamespace>Report</RootNamespace>
+    <PublishWithAspNetCoreTargetManifest>false</PublishWithAspNetCoreTargetManifest>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Remove="ClientApp\**" />
+    <Content Remove="ClientApp\**" />
+    <EmbeddedResource Remove="ClientApp\**" />
+    <None Remove="ClientApp\**" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="DevExpress.AspNetCore.Reporting" Version="18.1.4-ctp*" />
+    <PackageReference Include="DevExpress.Reporting.Core" Version="18.1.4" />
+    <PackageReference Include="Microsoft.AspNetCore.All" Version="2.0.5" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.0.2" />
+  </ItemGroup>
+  <ItemGroup>
+    <DotNetCliToolReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Tools" Version="2.0.2" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Remove="Controllers\WebDocumentViewerController.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Remove="tsconfig.json" />
+    <Content Remove="wwwroot\Reports\ReportParam.repx" />
+    <Content Remove="wwwroot\Reports\ReportParam11.repx" />
+    <Content Remove="wwwroot\Reports\Reports.rar" />
+    <Content Remove="wwwroot\Reports\XtraReport.repx" />
+    <Content Remove="wwwroot\Reports\XtraReport1.repx" />
+    <Content Remove="wwwroot\Reports\XtraReport2.repx" />
+    <Content Remove="wwwroot\Reports\XtraReport22.repx" />
+    <Content Remove="wwwroot\Reports\XtraReport23.repx" />
+    <Content Remove="wwwroot\Reports\XtraReport33.repx" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="ServerSide truoc khi xoa ClientApp.rar" />
+    <None Remove="ServerSide.rar" />
+    <None Remove="webpack.config.js" />
+    <None Remove="webpack.config.vendor.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="wwwroot\Reports\ReportParam.repx" />
+    <EmbeddedResource Include="wwwroot\Reports\ReportParam11.repx" />
+    <EmbeddedResource Include="wwwroot\Reports\XtraReport.repx" />
+    <EmbeddedResource Include="wwwroot\Reports\XtraReport1.repx" />
+    <EmbeddedResource Include="wwwroot\Reports\XtraReport22.repx" />
+    <EmbeddedResource Include="wwwroot\Reports\XtraReport23.repx" />
+    <EmbeddedResource Include="wwwroot\Reports\XtraReport33.repx" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="wwwroot\Reports\Reports.rar" />
+    <None Include="wwwroot\Reports\XtraReport2.repx" />
+  </ItemGroup>
+
+
+</Project>

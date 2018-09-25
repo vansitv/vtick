@@ -1,0 +1,11 @@
+F:\Angular 2\Reporting Angular Application Document Viewer vs\Reporting Angular Application Document Viewer\bin\Release\netcoreapp2.1\ReportingAngularApplicationDocumentViewer.deps.json
+F:\Angular 2\Reporting Angular Application Document Viewer vs\Reporting Angular Application Document Viewer\bin\Release\netcoreapp2.1\ReportingAngularApplicationDocumentViewer.runtimeconfig.json
+F:\Angular 2\Reporting Angular Application Document Viewer vs\Reporting Angular Application Document Viewer\bin\Release\netcoreapp2.1\ReportingAngularApplicationDocumentViewer.runtimeconfig.dev.json
+F:\Angular 2\Reporting Angular Application Document Viewer vs\Reporting Angular Application Document Viewer\bin\Release\netcoreapp2.1\ReportingAngularApplicationDocumentViewer.dll
+F:\Angular 2\Reporting Angular Application Document Viewer vs\Reporting Angular Application Document Viewer\bin\Release\netcoreapp2.1\ReportingAngularApplicationDocumentViewer.pdb
+F:\Angular 2\Reporting Angular Application Document Viewer vs\Reporting Angular Application Document Viewer\obj\Release\netcoreapp2.1\ReportingAngularApplicationDocumentViewer.csproj.CoreCompileInputs.cache
+F:\Angular 2\Reporting Angular Application Document Viewer vs\Reporting Angular Application Document Viewer\obj\Release\netcoreapp2.1\ReportingAngularApplicationDocumentViewer.AssemblyInfoInputs.cache
+F:\Angular 2\Reporting Angular Application Document Viewer vs\Reporting Angular Application Document Viewer\obj\Release\netcoreapp2.1\ReportingAngularApplicationDocumentViewer.AssemblyInfo.cs
+F:\Angular 2\Reporting Angular Application Document Viewer vs\Reporting Angular Application Document Viewer\obj\Release\netcoreapp2.1\ReportingAngularApplicationDocumentViewer.dll
+F:\Angular 2\Reporting Angular Application Document Viewer vs\Reporting Angular Application Document Viewer\obj\Release\netcoreapp2.1\ReportingAngularApplicationDocumentViewer.pdb
+F:\Angular 2\Reporting Angular Application Document Viewer vs\Reporting Angular Application Document Viewer\obj\Release\netcoreapp2.1\ReportingAngularApplicationDocumentViewer.csprojAssemblyReference.cache
